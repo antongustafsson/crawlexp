@@ -1,0 +1,25 @@
+{
+  "name": "crawlexp",
+  "version": "1.0.0",
+  "description": "Express crawler behavior in xml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antongustafsson/crawlexp.git"
+  },
+  "author": "Anton Gustafsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antongustafsson/crawlexp/issues"
+  },
+  "homepage": "https://github.com/antongustafsson/crawlexp#readme",
+  "dependencies": {
+    "htmlparser2": "3.10.0",
+    "node-fetch": "2.3.0",
+    "youtube-dl": "1.12.2",
+    "filesize": "3.6.1"
+  }
+}

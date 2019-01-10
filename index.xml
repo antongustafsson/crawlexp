@@ -1,0 +1,28 @@
+<visit-url url="https://youtube.se">
+    <match-yt-watchurl>
+        <select index="0">
+            <concat prefix="https://youtube.com">
+                <log />
+                <visit-url>
+                    <match-yt-watchurl>
+                        <select index="16">
+                            <log />
+                            <download-video />
+                        </select>
+                    </match-yt-watchurl>
+                </visit-url>
+                <download-video />
+            </concat>
+        </select>
+    </match-yt-watchurl>
+</visit-url>
+<visit-url url="https://google.se">
+    <match-url>
+        <log />
+    </match-url>
+</visit-url>
+<visit-url url="https://instagram.com">
+    <match-url>
+        <log />
+    </match-url>
+</visit-url>
