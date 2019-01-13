@@ -11,6 +11,9 @@ module.exports = (interface) => {
         'download-video': require('./actions/download-video'),
         'limit': require('./actions/limit'),
         'select': require('./actions/select'),
+        'summon': require('./actions/summon'),
+        'run-script': require('./actions/run-script'),
+        'store-contents': require('./actions/store-contents'),
         'test': (context, arguments) => { // context: image
             return new Promise((resolve, reject) => {
                 resolve(context)
